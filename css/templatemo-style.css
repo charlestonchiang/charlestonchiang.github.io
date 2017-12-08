@@ -95,7 +95,7 @@ p:last-child { margin-bottom: 0; }
 	height: 100%;
 }
 
-.box-white { background-color: rgba(30, 144, 255, 0.4);	}  /*right now dodgerblue*/
+.box-white { background-color: rgba(30, 144, 255, 0.6);	}  /*right now dodgerblue*/
 .box-black { background-color: rgba(0, 0, 55, 0.6); } /*the title box on the right side*/
 
 .site-title-text { /* "The Story" title text */
@@ -123,7 +123,7 @@ p:last-child { margin-bottom: 0; }
 .box-nav-item-link { padding: 10px; }
 
 .box-nav-item:hover, .box-nav-item:focus, .box-nav-item.active {
-	background-color: rgba(255, 48, 48, 0.5); /*original rgba(241, 241, 241, 0.59)*/
+	background-color: rgba(255, 48, 48, 0.75); /*original rgba(241, 241, 241, 0.59)*/
 }
 
 .box-nav-item:hover .box-text-nav-item, 
@@ -142,10 +142,10 @@ p:last-child { margin-bottom: 0; }
 	left: 30px;
 }
 
-.footer a {	color: rgba(255, 255, 255, 0.8); }
+.footer a {	color: rgba(255, 255, 255, 1); }
 
 .copyright-text { 
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 1);
 	font-size: 0.8em;	
 }
 
