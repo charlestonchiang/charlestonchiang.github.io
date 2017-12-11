@@ -1991,56 +1991,56 @@
 		position: relative;
 	}
 
-		.image img {
-			border-radius: 5px;
-			display: block;
-		}
+	.image img {
+	    border-radius: 5px;
+	    display: block;
+	}
 
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1.5em 0; /* TOP RIGHT BOTTOM LEFT */
-			top: 0.25em;
-		}
+	.image.left {
+	    float: left;
+	    margin: 0 1.5em 1.5em 0; /* TOP RIGHT BOTTOM LEFT */
+	    top: 0.25em;
+	}
 
-		.image.left.close { /* added 12/6/2017 */
-		    float: left;
-		    margin: 0 0.2em 1.5em 0;
-		    top: 0.25em;
-		}
+	.image.left.close { /* added 12/6/2017 */
+	    float: left;
+	    margin: 0 0.2em 1.5em 0;
+	    top: 0.25em;
+	}
 		
-		.image.right {
-			float: right;
-			margin: 0 0 1.5em 1.5em;
-			top: 0.25em;
-		}
+	.image.right {
+	    float: right;
+	    margin: 0 0 1.5em 1.5em;
+	    top: 0.25em;
+	}
 
-		.image.right.close { /* added 12/6/2017 */
-		    float: right;
-		    margin: 0 0 1.5em 0.2em;
-		    top: 0.25em;
-		}
+	.image.right.close { /* added 12/6/2017 */
+	    float: right;
+	    margin: 0 0 1.5em 0.2em;
+	    top: 0.25em;
+	}
 		
-		.image.fit {
-			display: block;
-			margin: 0 0 2.25em 0;
-			width: 100%;
-		}
+	.image.fit {
+	    display: block;
+	    margin: 0 0 2.25em 0;
+	    width: 100%;
+	}
 
-		.image.fit img {
-			display: block;
-			width: 100%;
-		}
+	.image.fit img {
+	    display: block;
+	    width: 100%;
+	}
+	
+	.image.avatar {
+	    border-radius: 100%;
+	    overflow: hidden;
+	}
 
-		.image.avatar {
-			border-radius: 100%;
-			overflow: hidden;
-		}
-
-		.image.avatar img {
-			border-radius: 100%;
-			display: block;
-			width: 100%;
-		}
+	.image.avatar img {
+	    border-radius: 100%;
+	    display: block;
+	    width: 100%;
+	}
 
 /* List */
 
@@ -2512,89 +2512,89 @@
 			padding: 3em;
 		}
 
-			#header > header .avatar {
-				display: block;
-				margin: 0 auto 2.25em auto;
-				width: 8em;
-			}
+		#header > header .avatar {
+		    display: block;
+		    margin: 0 auto 2.25em auto;
+		    width: 8em;
+		}
 
-			#header > header h1 {
-				font-size: 1.5em;
-				margin: 0;
-			}
+		#header > header h1 {
+		    font-size: 1.5em;
+		    margin: 0;
+		}
 
-			#header > header p { /*subtitle under the name on right side panel */
-			        color: rgba(255, 236, 139, 0.95); /*#d1f1e9;*/
-				/*font-style: italic;*/
-				margin: 1em 0 0 0;
-				font-size: 0.9em;
-			}
+		#header > header p { /*subtitle under the name on right side panel */
+		    color: rgba(255, 236, 139, 0.95); /*#d1f1e9;*/
+		    /*font-style: italic;*/
+		    margin: 1em 0 0 0;
+		    font-size: 0.9em;
+		}
 
 		#header > footer {
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			bottom: 0;
-			left: 0;
-			padding: 2em;
-			width: 100%;
+		    -moz-flex-shrink: 0;
+		    -webkit-flex-shrink: 0;
+		    -ms-flex-shrink: 0;
+		    flex-shrink: 0;
+		    bottom: 0;
+		    left: 0;
+		    padding: 2em;
+		    width: 100%;
 		}
 
-			#header > footer .icons {
-				margin: 0;
-			}
+		#header > footer .icons {
+		    margin: 0;
+		}
 
-				#header > footer .icons li a {
-					color: #b6e9dc;
-				}
-
+		#header > footer .icons li a {
+		    color: #b6e9dc;
+		}
+		
 		#header > nav {
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
+		    -moz-flex-grow: 1;
+		    -webkit-flex-grow: 1;
+		    -ms-flex-grow: 1;
+		    flex-grow: 1;
+		}
+		
+		#header > nav ul {
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
 		}
 
-			#header > nav ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
+		#header > nav ul li { /* division lines between sections on right side panel*/
+		    border-top: solid 2px rgba(30, 144, 255, 0.4); /*#5ccfb0;*/
+		    display: block;
+		    padding: 0;
+		}
 
-				#header > nav ul li { /* division lines between sections on right side panel*/
-				    border-top: solid 2px rgba(30, 144, 255, 0.4); /*#5ccfb0;*/
-					display: block;
-					padding: 0;
-				}
+		#header > nav ul li a {
+		    -moz-transition: none;
+		    -webkit-transition: none;
+		    -ms-transition: none;
+		    transition: none;
+		    border: 0;
+		    color: #FFFFFF !important; /*font color for the section titles on right side panel, before hovering over*/
+		    display: block;
+		    padding: 0.85em 0;
+		    text-decoration: none;
+		}
 
-					#header > nav ul li a {
-						-moz-transition: none;
-						-webkit-transition: none;
-						-ms-transition: none;
-						transition: none;
-						border: 0;
-						color: #FFFFFF !important; /*font color for the section titles on right side panel, before hovering over*/
-						display: block;
-						padding: 0.85em 0;
-						text-decoration: none;
-					}
-
-						#header > nav ul li a.active {
-							background: rgba(255, 48, 48, 0.5); /*color of box currently active*/
-							color: rgba(255, 236, 139, 0.95) !important; /*#4acaa8 !important;*/
-						}
-
-					#header > nav ul li:first-child {
-						border-top: 0;
-					}
-
+		#header > nav ul li a.active {
+		    background: rgba(153, 27, 30, 1); /*color of box currently active*/
+		    color: rgba(255, 236, 139, 0.95) !important; /*#4acaa8 !important;*/
+		}
+		
+		#header > nav ul li:first-child {
+		    border-top: 0;
+		}
+		
 /* Wrapper */
-
-	#wrapper {
-		background: #FFFFFF; /*the background color of left side wide panel*/
-		padding-right: 23em;
-	}
+		
+		#wrapper {
+		    background: #FFFFFF; /*the background color of left side wide panel*/
+		    padding-right: 23em;
+		}
 
 /* Main */
 
@@ -2612,18 +2612,39 @@
 
 /* One */
 
-	#research:before { /* banner on top */
-	        background-image: url("../../img/2-Line_KeckSOMofUSC_GoldOnCard.jpg");
-		background-position: top left;
-		background-repeat: no-repeat;
-		background-size: 35% auto;
-		background-color: rgba(153, 27, 30, 1); /*#990000*/
-		content: '';
-		display: block;
-		height: 10em;
-		width: 100%;
+	#research::before { /* banner on top */
+	    padding: 11px;
+/*
+	    background-origin: content-box;
+	    background-image: url("../../img/usc-shield-name-white.png");
+	    background-position: top right;
+	    background-repeat: no-repeat;
+	    background-size: 176px 38px; 
+*/
+	    background-color: rgba(153, 27, 30, 1); /*#990000*/
+	    content: '';
+	    display: block;
+	    height: 60px;
+	    width: 100%;
 	}
 
+	h1#usclogo {
+	    float: right;
+	    width: 198px;
+	    height: 60px;
+	    margin: 0;
+	}
+
+	h1#usclogo a {
+	    display: block;
+	    width: 176px;
+	    height: 60px;
+	    padding: 11px;
+/*	    background-color: rgba(153, 27, 30, 1); */
+	    background: url("../../img/usc-shield-name-white.png") 0 11px no-repeat;
+	    text-indent: -9999px
+	}
+	
 /* Footer */
 
 	#footer {

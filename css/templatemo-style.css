@@ -52,13 +52,15 @@ p:last-child { margin-bottom: 0; }
 }
 
 .banner {
-        background-color: #990000;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	font-weight: 300;		
-	padding-right: 10px;
-	overflow-x: hidden;
-	height: 60px;
+    background-color: rgba(0,0,0,0.75);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;		
+    padding-right: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    overflow-x: hidden;
+    height: 60px;
 }
 
 .page-bg-imgs-list { display: none; }
