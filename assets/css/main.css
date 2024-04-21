@@ -45,7 +45,8 @@
 	}
 
 	body {
-		-webkit-text-size-adjust: none;
+	    -webkit-text-size-adjust: none;
+	    -webkit-font-smoothing: antialiased; /* added 4/21/2024 */
 	}
 
 /* Box Model */
@@ -1578,8 +1579,9 @@
 		}
 
 	strong, b {
-		/*color: rgba(255,48,48,1);*/
-		font-weight: 500;
+	    /*color: rgba(255,48,48,1);*/
+	    /*color: rgba(0,0,255,1);*/
+	    font-weight: bold; /* changed on 4/21/2024 from "500" to "bold", because somehow Chrome no longer interpret the value */
 	}
 
 	em, i {
