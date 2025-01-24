@@ -80,7 +80,7 @@ p:last-child { margin-bottom: 0; }
 
 .content-gallery { max-width: 900px; }
 .content-text { /*lower right box*/
-	background-color: rgba(255, 236, 139, 0.95);  /*lightgoldenrod1*/
+    	background-color: rgba(255, 236, 139, 0.95);  /*lightgoldenrod1, #FFED91*/
 	padding: 40px;
 }
 
@@ -100,14 +100,14 @@ p:last-child { margin-bottom: 0; }
 
 .box-text {
 	border: 3px solid white;
-	color: #FFEC8B; /*lightgoldenrod1, the color for text in the four main boxes when not hovered over*/
+	color: #FFEC8B; /*lightgoldenrod1, the color for text in the six main boxes when not hovered over*/
 	font-style: italic;
 	font-weight: bold;
 	width: 100%;
 	height: 100%;
 }
 
-.box-white { background-color: rgba(30, 144, 255, 0.6);	}  /*right now dodgerblue*/
+.box-white { background-color: rgba(30, 144, 255, 0.6);	}  /*the six main boxes background color, right now dodgerblue*/
 .box-black { background-color: rgba(0, 0, 55, 0.6); } /*the title box on the right side*/
 
 .site-title-text { /* "The Story" title text */
@@ -135,7 +135,7 @@ p:last-child { margin-bottom: 0; }
 .box-nav-item-link { padding: 10px; }
 
 .box-nav-item:hover, .box-nav-item:focus, .box-nav-item.active {
-	background-color: rgba(255, 48, 48, 0.75); /*original rgba(241, 241, 241, 0.59)*/
+	background-color: rgba(255, 48, 48, 0.75); /*original rgba(241, 241, 241, 0.59), the six main box background color when hovered over*/
 }
 
 .box-nav-item:hover .box-text-nav-item, 
